@@ -1,16 +1,5 @@
 import * as configs from '../configurations';
 
-// export async function getAsync(url) {
-//     try {
-//         let response = await fetch('https://facebook.github.io/react-native/movies.json');
-//         let responseJson = await response.json();
-//         return responseJson.movies;
-//     } catch (error) {
-//         console.error(error);
-//     }
-// }
-
-
 export function get(endpoint) {
 
     var url = configs.getApiEndPoint().concat("/").concat(endpoint);

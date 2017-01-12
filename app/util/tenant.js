@@ -1,6 +1,6 @@
 import _ from 'underscore';
 
-const validTenants = ['cba', 'anz', 'bbl'];
+const validTenants = ['tenant1', 'tenant2'];
 
 class Tenant {
     constructor() {
@@ -21,7 +21,7 @@ class Tenant {
         if (tenantName !== 'invalid')
             return './styles/'.concat(tenantName).concat('.theme.scss');
         else
-            return './styles/invalid.theme.scss';
+            return './styles/default.theme.scss';
     }
 }
 

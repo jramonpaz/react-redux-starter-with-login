@@ -1,4 +1,5 @@
-# react-redux-starter-with-login
+# react-redux-starter with Login and Multi-Tenant setup 
+
 A customised starter pack from react-slingshot (https://github.com/coryhouse/react-slingshot) to include login/fetch 
 
 
